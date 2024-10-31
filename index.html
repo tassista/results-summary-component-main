@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body class="container">
+  <section class="result">
+    <p>Your Result</p>
+    <div class="points">
+      <p class="points__main">76</p>
+      <p class="points__of100">of 100</p>
+    </div>
+    <h2 class="result__title">Great</h2>
+    <p class="result__text">You scored higher than 65% of the people who have taken these tests.</p>
+  </section>
+  <section class="summary">
+    <h3 class="summary__title">Summary</h3>
+    <div class="score red">
+      <div class="score__name">
+        <img src="/assets/images/icon-reaction.svg" alt="reaction icon">
+        <p>reaction</p>
+      </div>
+      <div class="score__result">
+        <p>80 <span class="lighter">/ 100</span></p>
+      </div>
+    </div>
+    <div class="score yellow">
+      <div class="score__name">
+          <img src="/assets/images/icon-memory.svg" alt="reaction icon">
+          <p>memory</p>
+        </div>
+        <div class="score__result">
+          <p>90 <span class="lighter">/ 100</span></p>
+        </div>
+    </div>
+    <div class="score green">
+        <div class="score__name">
+          <img src="/assets/images/icon-verbal.svg" alt="reaction icon">
+          <p>verbal</p>
+        </div>
+        <div class="score__result">
+          <p>61 <span class="lighter">/ 100</span></p>
+        </div>
+    </div>
+    <div class="score blue">
+        <div class="score__name">
+          <img src="/assets/images/icon-visual.svg" alt="reaction icon">
+          <p>visual</p>
+        </div>
+        <div class="score__result">
+          <p>72 <span class="lighter">/ 100</span></p>
+        </div>
+    </div>
+    <button class="btn">continue</button>
+  </section>
+</body>
+</html>
